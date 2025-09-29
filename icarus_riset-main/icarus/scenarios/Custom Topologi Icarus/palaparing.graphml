@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+    <key attr.name="LinkNote" attr.type="string" for="edge" id="d44" />
+    <key attr.name="LinkType" attr.type="string" for="edge" id="d43" />
+    <key attr.name="LinkSpeedRaw" attr.type="double" for="edge" id="d42" />
+    <key attr.name="LinkSpeedUnits" attr.type="string" for="edge" id="d41" />
+    <key attr.name="LinkLabel" attr.type="string" for="edge" id="d40" />
+    <key attr.name="LinkSpeed" attr.type="string" for="edge" id="d39" />
+    <key attr.name="key" attr.type="int" for="edge" id="d38" />
+    <key attr.name="id" attr.type="string" for="edge" id="d37" />
+    <key attr.name="geocode_id" attr.type="string" for="node" id="d36" />
+    <key attr.name="geocode_country" attr.type="string" for="node" id="d35" />
+    <key attr.name="type" attr.type="string" for="node" id="d34" />
+    <key attr.name="label" attr.type="string" for="node" id="d33" />
+    <key attr.name="Longitude" attr.type="double" for="node" id="d32" />
+    <key attr.name="id" attr.type="int" for="node" id="d31" />
+    <key attr.name="Country" attr.type="string" for="node" id="d30" />
+    <key attr.name="Latitude" attr.type="double" for="node" id="d29" />
+    <key attr.name="Internal" attr.type="int" for="node" id="d28" />
+    <key attr.name="Testbed" attr.type="int" for="graph" id="d27" />
+    <key attr.name="LastProcessed" attr.type="string" for="graph" id="d26" />
+    <key attr.name="DateYear" attr.type="string" for="graph" id="d25" />
+    <key attr.name="NetworkDate" attr.type="string" for="graph" id="d24" />
+    <key attr.name="Transit" attr.type="int" for="graph" id="d23" />
+    <key attr.name="Developed" attr.type="int" for="graph" id="d22" />
+    <key attr.name="Creator" attr.type="string" for="graph" id="d21" />
+    <key attr.name="Layer" attr.type="string" for="graph" id="d20" />
+    <key attr.name="LastAccess" attr.type="string" for="graph" id="d19" />
+    <key attr.name="DateMonth" attr.type="string" for="graph" id="d18" />
+    <key attr.name="DateModifier" attr.type="string" for="graph" id="d17" />
+    <key attr.name="SourceGitVersion" attr.type="string" for="graph" id="d16" />
+    <key attr.name="IX" attr.type="int" for="graph" id="d15" />
+    <key attr.name="Customer" attr.type="int" for="graph" id="d14" />
+    <key attr.name="ToolsetVersion" attr.type="string" for="graph" id="d13" />
+    <key attr.name="label" attr.type="string" for="graph" id="d12" />
+    <key attr.name="Commercial" attr.type="int" for="graph" id="d11" />
+    <key attr.name="Backbone" attr.type="int" for="graph" id="d10" />
+    <key attr.name="DateType" attr.type="string" for="graph" id="d9" />
+    <key attr.name="Type" attr.type="string" for="graph" id="d8" />
+    <key attr.name="Version" attr.type="string" for="graph" id="d7" />
+    <key attr.name="Source" attr.type="string" for="graph" id="d6" />
+    <key attr.name="Access" attr.type="int" for="graph" id="d5" />
+    <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
+    <key attr.name="Network" attr.type="string" for="graph" id="d3" />
+    <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
+    <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
+    <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
+    <graph edgedefault="undirected">
+      <data key="d3">TOPOLOGI PALAPA RING</data> 
+      <node id="0">
+        <data key="d30">BA</data>
+        <data key="d31">0</data>
+        <data key="d29">5.547771</data>
+        <data key="d32">95.318056</data>
+        <data key="d33">BANDA ACEH</data>
+      </node>
+      <node id="1">
+        <data key="d30">SG</data>
+        <data key="d31">1</data>
+        <data key="d33">SIGLI</data>
+      </node>
+      <node id="2">
+        <data key="d30">TA</data>
+        <data key="d31">2</data>
+        <data key="d33">TAPAKTUAN</data>
+      </node>
+      <node id="3">
+        <data key="d30">SM</data>
+        <data key="d31">3</data>
+        <data key="d33">SIMEULEU</data>
+      </node>
+      <node id="4">
+        <data key="d30">NI</data>
+        <data key="d31">4</data>
+        <data key="d33">NIAS</data>
+      </node>
+      <node id="5">
+        <data key="d30">SB</data>
+        <data key="d31">5</data>
+        <data key="d33">SIBOLGA</data>
+      </node>
+      <node id="6">
+        <data key="d30">SD</data>
+        <data key="d31">6</data>
+        <data key="d33">SIDIKALANG</data>
+      </node>
+      <node id="7">
+        <data key="d30">PB</data>
+        <data key="d31">7</data>
+        <data key="d33">PANGKALAN BRANDAN</data>
+      </node>
+      <node id="8">
+        <data key="d30">DU</data>
+        <data key="d31">8</data>
+        <data key="d33">DUMAI</data>
+      </node>
+      <node id="9">
+        <data key="d30">PD</data>
+        <data key="d31">9</data>
+        <data key="d33">PADANG</data>
+        <data key="d29">-0.950506</data>
+        <data key="d32">100.420095</data>
+      </node>
+      <node id="10">
+        <data key="d30">ST</data>
+        <data key="d31">10</data>
+        <data key="d33">SIBERUT</data>
+      </node>
+      <node id="11">
+        <data key="d30">BE</data>
+        <data key="d31">11</data>
+        <data key="d33">BENGKAIS</data>
+      </node>
+      <node id="12">
+        <data key="d30">PU</data>
+        <data key="d31">12</data>
+        <data key="d33">PEKANBARU</data>
+        <data key="d29">0.506581</data>
+        <data key="d32">101.442546</data>
+      </node>
+      <node id="13">
+        <data key="d30">BU</data>
+        <data key="d31">13</data>
+        <data key="d33">BENGKULU</data>
+        <data key="d29">-3.881536</data>
+        <data key="d32">102.311968</data>
+      </node>
+      <node id="14">
+        <data key="d30">LL</data>
+        <data key="d31">14</data>
+        <data key="d33">LUBUKLINGGU</data>
+      </node>
+      <node id="15">
+        <data key="d30">SK</data>
+        <data key="d31">15</data>
+        <data key="d33">SEKAYU</data>
+      </node>
+      <node id="16">
+        <data key="d30">JB</data>
+        <data key="d31">16</data>
+        <data key="d33">JAMBI</data>
+        <data key="d29">-1.609405</data>
+        <data key="d32">103.612272</data>
+      </node>
+      <node id="17">
+        <data key="d30">RG</data>
+        <data key="d31">17</data>
+        <data key="d33">RANGSANG</data>
+      </node>
+      <node id="18">
+        <data key="d30">RI</data>
+        <data key="d31">18</data>
+        <data key="d33">RIAU</data>
+      </node>
+      <node id="19">
+        <data key="d30">TP</data>
+        <data key="d31">19</data>
+        <data key="d33">TANJUNG PINANG</data>
+      </node>
+      <node id="20">
+        <data key="d30">DA</data>
+        <data key="d31">20</data>
+        <data key="d33">DABO</data>
+      </node>
+      <node id="21">
+        <data key="d30">MU</data>
+        <data key="d31">21</data>
+        <data key="d33">MUNTOK</data>
+      </node>
+      <node id="22">
+        <data key="d30">PP</data>
+        <data key="d31">22</data>
+        <data key="d33">PANGKAL PINANG</data>
+      </node>
+      <node id="23">
+        <data key="d30">PP1</data>
+        <data key="d31">23</data>
+        <data key="d33">PANGKAL PINANG 1</data>
+      </node>
+      <node id="24">
+        <data key="d30">PL</data>
+        <data key="d31">24</data>
+        <data key="d33">PALEMBANG</data> 
+        <data key="d29">-2.976217</data>
+        <data key="d32">104.786296</data>
+      </node>
+      <node id="25">
+        <data key="d30">BR</data>
+        <data key="d31">25</data>
+        <data key="d33">BARURAJA</data>
+      </node>
+      <node id="26">
+        <data key="d30">LM</data>
+        <data key="d31">26</data>
+        <data key="d33">LAMPUNG</data>
+      </node>
+      <node id="27">
+        <data key="d30">BG</data>
+        <data key="d31">27</data>
+        <data key="d33">BELITUNG</data>
+      </node>
+      <node id="28">
+        <data key="d30">BN</data>
+        <data key="d31">28</data>
+        <data key="d33">BANTEN</data>
+      </node>
+      <node id="29">
+        <data key="d30">JKT</data>
+        <data key="d31">29</data>
+        <data key="d33">JAKARTA</data>
+      </node>
+      <node id="30">
+        <data key="d30">BD</data>
+        <data key="d31">30</data>
+        <data key="d33">BANDUNG</data>
+      </node>
+      <node id="31">
+        <data key="d30">CR</data>
+        <data key="d31">31</data>
+        <data key="d33">CIREBON</data>
+      </node>
+      <node id="32">
+        <data key="d30">KB</data>
+        <data key="d31">32</data>
+        <data key="d33">KEBUMEN</data>
+      </node>
+      <node id="33">
+        <data key="d30">YG</data>
+        <data key="d31">33</data>
+        <data key="d33">YOGYAKARTA</data>
+      </node>
+      <node id="34">
+        <data key="d30">SL</data>
+        <data key="d31">34</data>
+        <data key="d33">SOLO</data>
+      </node>
+      <node id="35">
+        <data key="d30">PT</data>
+        <data key="d31">35</data>
+        <data key="d33">PATI</data>
+      </node>
+      <node id="36">
+        <data key="d30">SBY</data>
+        <data key="d31">36</data>
+        <data key="d33">SURABAYA</data>
+      </node>
+      <node id="37">
+        <data key="d30">MJ</data>
+        <data key="d31">37</data>
+        <data key="d33">MOJOKERTO</data>
+      </node>
+      <node id="38">
+        <data key="d30">ML</data>
+        <data key="d31">38</data>
+        <data key="d33">MALANG</data>
+      </node>
+      <node id="39">
+        <data key="d30">PR</data>
+        <data key="d31">39</data>
+        <data key="d33">PROBOLINGGO</data>
+      </node>
+      <node id="40">
+        <data key="d30">SO</data>
+        <data key="d31">40</data>
+        <data key="d33">SITUBONDO</data>
+      </node>
+      <node id="41">
+        <data key="d30">JR</data>
+        <data key="d31">41</data>
+        <data key="d33">JEMBER</data>
+      </node>
+      <node id="42">
+        <data key="d30">DN</data>
+        <data key="d31">42</data>
+        <data key="d33">DENPASAR</data>
+      </node>
+      <node id="43">
+        <data key="d30">NP</data>
+        <data key="d31">43</data>
+        <data key="d33">NUSA PENIDA</data>
+      </node>
+      <node id="44">
+        <data key="d30">NT1</data>
+        <data key="d31">44</data>
+        <data key="d33">NATUNA1</data>
+      </node>
+      <node id="45">
+        <data key="d30">NT</data>
+        <data key="d31">45</data>
+        <data key="d33">NATUNA</data>
+      </node>
+      <node id="46">
+        <data key="d30">SW</data>
+        <data key="d31">46</data>
+        <data key="d33">SINGKAWANG</data>
+      </node>
+      <node id="47">
+        <data key="d30">PK</data>
+        <data key="d31">47</data>
+        <data key="d33">PONTIANAK</data>
+      </node>
+      <node id="48">
+        <data key="d30">KT</data>
+        <data key="d31">48</data>
+        <data key="d33">KETAPANG</data>
+      </node>
+      <node id="49">
+        <data key="d30">KP</data>
+        <data key="d31">49</data>
+        <data key="d33">KUALAPEMBUANG</data>
+      </node>
+      <node id="50">
+        <data key="d30">PLK</data>
+        <data key="d31">50</data>
+        <data key="d33">PALANGKARAYA</data>
+      </node>
+      <node id="51">
+        <data key="d30">BJN</data>
+        <data key="d31">51</data>
+        <data key="d33">BANJARMASIN</data>
+      </node>
+      <node id="52">
+        <data key="d30">BPN</data>
+        <data key="d31">52</data>
+        <data key="d33">BALIKPAPAN</data>
+      </node>
+      <node id="53">
+        <data key="d30">SMN</data>
+        <data key="d31">53</data>
+        <data key="d33">SAMARINDA</data>
+      </node>
+      <node id="54">
+        <data key="d30">TGG</data>
+        <data key="d31">54</data>
+        <data key="d33">TENGGARONG</data>
+      </node>
+      <node id="55">
+        <data key="d30">SR</data>
+        <data key="d31">55</data>
+        <data key="d33">SENDAWAR</data>
+      </node>
+      <node id="56">
+        <data key="d30">MMU</data>
+        <data key="d31">56</data>
+        <data key="d33">MAMUJU</data>
+      </node>
+      <node id="57">
+        <data key="d30">PPE</data>
+        <data key="d31">57</data>
+        <data key="d33">PARE-PARE</data>
+      </node>
+      <node id="58">
+        <data key="d30">MKS</data>
+        <data key="d31">58</data>
+        <data key="d33">MAKASSAR</data>
+      </node>
+      <node id="59">
+        <data key="d30">BEG</data>
+        <data key="d31">59</data>
+        <data key="d33">BENTENG</data>
+      </node>
+      <node id="60">
+        <data key="d30">SKI</data>
+        <data key="d31">60</data>
+        <data key="d33">SIKEL</data>
+      </node>
+      <node id="61">
+        <data key="d30">BBU</data>
+        <data key="d31">61</data>
+        <data key="d33">BAUBAU</data>
+      </node>
+      <node id="62">
+        <data key="d30">KA</data>
+        <data key="d31">62</data>
+        <data key="d33">KOLAKA</data>
+      </node>
+      <node id="63">
+        <data key="d30">SAN</data>
+        <data key="d31">63</data>
+        <data key="d33">SALAKAN</data>
+      </node>
+      <node id="64">
+        <data key="d30">GO</data>
+        <data key="d31">64</data>
+        <data key="d33">GORONTALO</data>
+      </node>
+      <node id="65">
+        <data key="d30">MO</data>
+        <data key="d31">65</data>
+        <data key="d33">MANADO</data>
+      </node>
+      <node id="66">
+        <data key="d30">TT</data>
+        <data key="d31">66</data>
+        <data key="d33">TERNATE</data>
+      </node>
+      <node id="67">
+        <data key="d30">RA</data>
+        <data key="d31">67</data>
+        <data key="d33">RAJA AMPAT</data>
+      </node>
+      <node id="68">
+        <data key="d30">SRG</data>
+        <data key="d31">68</data>
+        <data key="d33">SORONG</data>
+      </node>
+      <node id="69">
+        <data key="d30">MI</data>
+        <data key="d31">69</data>
+        <data key="d33">MANOKWARI</data>
+      </node>
+      <node id="70">
+        <data key="d30">FF</data>
+        <data key="d31">70</data>
+        <data key="d33">FAK-FAK</data>
+      </node>
+      <node id="71">
+        <data key="d30">BI</data>
+        <data key="d31">71</data>
+        <data key="d33">BIAK</data>
+      </node>
+      <node id="72">
+        <data key="d30">SI</data>
+        <data key="d31">72</data>
+        <data key="d33">SERUI</data>
+      </node>
+      <node id="73">
+        <data key="d30">WM</data>
+        <data key="d31">73</data>
+        <data key="d33">WAMENA</data>
+      </node>
+      <node id="74">
+        <data key="d30">ME</data>
+        <data key="d31">74</data>
+        <data key="d33">MERAUKE</data>
+      </node>
+      <node id="75">
+        <data key="d30">MM</data>
+        <data key="d31">75</data>
+        <data key="d33">MATARAM</data>
+      </node>
+      <node id="76">
+        <data key="d30">BM</data>
+        <data key="d31">76</data>
+        <data key="d33">BIMA</data>
+      </node>
+      <node id="77">
+        <data key="d30">SBA</data>
+        <data key="d31">77</data>
+        <data key="d33">SUMBA</data>
+      </node>
+      <node id="78">
+        <data key="d30">BT</data>
+        <data key="d31">78</data>
+        <data key="d33">BATUTUAH</data>
+      </node>
+      <node id="79">
+        <data key="d30">KG</data>
+        <data key="d31">79</data>
+        <data key="d33">KUPANG</data>
+      </node>
+      <node id="80">
+        <data key="d30">MME</data>
+        <data key="d31">80</data>
+        <data key="d33">MAUMERE</data>
+      </node>
+      <node id="81">
+        <data key="d30">JA</data>
+        <data key="d31">81</data>
+        <data key="d33">JAYA PURA</data>
+      </node>
+      <node id="82">
+        <data key="d30">PLU</data>
+        <data key="d31">82</data>
+        <data key="d33">PALU</data>
+      </node>
+      <node id="83">
+        <data key="d30">PLK1</data>
+        <data key="d31">83</data>
+        <data key="d33">PALANGKARAYA1</data>
+      </node>
+
+      <edge source="0" target="1">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">Mbps</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="0" target="2">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">Mbps</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="0" target="3">
+        <data key="d39">100</data>
+        <data key="d40">100 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">100000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="1" target="7">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="2" target="6">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="3" target="4">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="4" target="10">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="6" target="5">
+        <data key="d39">10</data>
+        <data key="d40">10 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">10000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="4" target="5">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="7" target="6">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="7" target="8">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="8" target="9">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="5" target="9">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="9" target="13">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="8" target="11">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="11" target="12">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="11" target="17">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="17" target="18">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="18" target="19">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="19" target="20">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="20" target="16">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="8" target="16">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="17" target="18">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="13" target="14">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="14" target="15">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="19" target="21">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="21" target="22">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="22" target="23">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="22" target="24">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="16" target="24">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="14" target="25">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="25" target="24">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="10" target="26">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="13" target="26">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="24" target="26">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="26" target="28">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="23" target="29">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="27" target="29">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="28" target="29">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="29" target="30">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="30" target="31">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="31" target="32">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="32" target="33">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="31" target="35">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="35" target="34">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="34" target="33">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="35" target="36">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="34" target="37">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="36" target="37">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="36" target="38">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="38" target="39">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="39" target="40">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="39" target="41">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="40" target="43">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="41" target="42">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="43" target="75">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="42" target="75">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="75" target="76">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="76" target="77">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="76" target="80">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="77" target="78">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="78" target="79">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="79" target="80">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="80" target="70">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="70" target="74">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="74" target="81">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="81" target="73">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="73" target="72">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="72" target="71">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="71" target="69">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="69" target="67">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="67" target="68">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="68" target="70">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="68" target="69">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="68" target="66">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="68" target="63">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="70" target="62">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="66" target="65">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="65" target="64">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="64" target="82">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="64" target="56">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="82" target="62">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="82" target="63">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="82" target="56">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="62" target="61">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="61" target="60">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="60" target="59">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="59" target="58">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="58" target="57">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="57" target="56">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="56" target="53">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="53" target="54">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="54" target="55">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="53" target="52">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="52" target="51">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="51" target="50">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="51" target="49">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="51" target="36">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="50" target="49">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="50" target="83">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="49" target="48">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="48" target="47">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="47" target="27">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="47" target="19">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="46" target="45">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="45" target="44">
+        <data key="d39">80</data>
+        <data key="d40">80 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">80000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="44" target="19">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="70" target="73">
+        <data key="d39">20</data>
+        <data key="d40">20 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">20000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="58" target="36">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+      <edge source="58" target="51">
+        <data key="d39">155</data>
+        <data key="d40">155 Mbps</data>
+        <data key="d41">M</data>
+        <data key="d42">155000000.0</data>
+        <data key="d38">0</data> 
+      </edge>
+    </graph>
+  </graphml>
+      
+      
+      
