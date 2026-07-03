@@ -223,14 +223,12 @@ RESULTS_FORMAT = "PICKLE"
 # Number of times each experiment is replicated
 # This is necessary for extracting confidence interval of selected metrics
 N_REPLICATIONS = 3
-
 # List of metrics to be measured in the experiments
 # The implementation of data collectors are located in ./icarus/execution/collectors.py
 # Remove collectors not needed
 DATA_COLLECTORS = [
     "CACHE_HIT_RATIO",  # Measure cache hit ratio
     "LATENCY",  # Measure request and response latency (based on static link delays)
-    "LINK_LOAD",  # Measure link loads
     "PATH_STRETCH",  # Measure path stretch
 ]
 
@@ -240,57 +238,45 @@ DATA_COLLECTORS = [
 # Default experiment values, i.e. values shared by all experiments
 
 # Number of content objects
-N_CONTENTS = 3 * 10 ** 5
+N_CONTENTS = 1 * 10 ** 5
 
 # Number of content requests generated to pre-populate the caches
 # These requests are not logged
-N_WARMUP_REQUESTS = 3 * 10 ** 5
+N_WARMUP_REQUESTS = 5 * 10 ** 4
 
 # Number of content requests that are measured after warmup
-N_MEASURED_REQUESTS = 6 * 10 ** 5
+N_MEASURED_REQUESTS = 2.5 * 10 ** 5
 
 # Number of requests per second (over the whole network)
-REQ_RATE = 1.0
+REQ_RATE = 12.0
 
 # Cache eviction policy
-CACHE_POLICY = "LRU"
+CACHE_POLICY = "LFU"
 
 # Zipf alpha parameter, remove parameters not needed
-ALPHA = [0.6, 0.8, 1.0]
+ALPHA = [0.8, 1.0]
 
 # Total size of network cache as a fraction of content population
 # Remove sizes not needed
-NETWORK_CACHE = [0.004, 0.002]
+NETWORK_CACHE = [0.05, 0.1, 0.15, 0.2, 0.25]
 
 
 # List of topologies tested
 # Topology implementations are located in ./icarus/scenarios/topology.py
 # Remove topologies not needed
 TOPOLOGIES = [
-    "GEANT",
-    "WIDE",
-    "GARR",
-    "TISCALI",
+    "TISCALI"
 ]
 
 # List of caching and routing strategies
 # The code is located in ./icarus/models/strategy/*.py
 # Remove strategies not needed
-STRATEGIES = [
-    "LCE",  # Leave Copy Everywhere
-    "NO_CACHE",  # No caching, shortest-path routing
-    "HR_SYMM",  # Symmetric hash-routing
-    "HR_ASYMM",  # Asymmetric hash-routing
-    "HR_MULTICAST",  # Multicast hash-routing
-    "HR_HYBRID_AM",  # Hybrid Asymm-Multicast hash-routing
-    "HR_HYBRID_SM",  # Hybrid Symm-Multicast hash-routing
-    "CL4M",  # Cache less for more
-    "PROB_CACHE",  # ProbCache
-    "LCD",  # Leave Copy Down
-    "RAND_CHOICE",  # Random choice: cache in one random cache on path
-    "RAND_BERNOULLI",  # Random Bernoulli: cache randomly in caches on path
+STRATEGIES = [ "LCE", "LCD", "MCDM", "LTPCPS"]
+LTP_VARIANTS = [
+    {"alpha": 0.7, "beta": 0.3},  # topology-dominant
+    {"alpha": 0.5, "beta": 0.5},  # balanced (default)
+    {"alpha": 0.3, "beta": 0.7},  # popularity-dominant
 ]
-
 # Instantiate experiment queue
 EXPERIMENT_QUEUE = deque()
 

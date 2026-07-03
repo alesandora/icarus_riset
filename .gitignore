@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Temporary / backup files
+*.save
+*.swp
+*.swo
+.config,py.swp
+
+# Simulation outputs
+results/
+*/results/
+*.pickle
+*.pkl
+*.csv
+*.xlsx
+*.tar.gz
+*.zip
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.save.*
+struktur_repo.txt
